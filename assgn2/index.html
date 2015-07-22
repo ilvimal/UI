@@ -93,14 +93,32 @@
                     </label>
                 </div>
                 <div>
-                    <input type="tel" class="input-n input-t" placeholder="(201) 555-5555" > 
-                    <datalist id="browsers">
-                        <option value="Internet Explorer">
-                        <option value="Firefox">
-                        <option value="Chrome">
-                        <option value="Opera">
-                        <option value="Safari">
-                    </datalist> 
+                    <select name="mobileNumbers" class="input-n">
+                        <option value="USA">+1</option>
+                        <option value="INDIA">+91</option>
+                        <option value="UAE">+23</option>
+                        <option value="UK">+11</option>
+                    </select>
+                    <input type="tel" class="input-n input-small-t" placeholder="(201) 555-5555" style="width: 85%"> 
+
+                </div>
+                <div class="height-20 clearfix"></div>
+                <div class="margin-top-10 clearfix">
+
+                    <label class="label-t light-black-font">
+                        <span class="blue">*</span>
+                        LANGUAGE
+                    </label>
+                </div>
+                <div>
+                    <select name="lang" class="input-n" style="width: 100%;background-color: white">
+                        <option value="USA">English (US)</option>
+                        <option value="INDIA">Hindi</option>
+                        <option value="UAE">Arabic</option>
+                        <option value="UK">English (UK)</option>
+                    </select>
+
+
                 </div>
 
                 <div class="clearfix">
@@ -119,14 +137,23 @@
 
                 <div class="margin-top-10 clearfix">
 
+                    
+                </div>
+                <div style="width: 65%;float: left;">
                     <label class="label-t light-black-font">
                         <span class="blue">*</span>
                         CREDIT CARD NUMBER
                     </label>
+                    <br>
+                    <input type="text" class="input-n" style="width: 100%" placeholder="1234 5678 9012 3456" />
                 </div>
-                <div>
-                    <input type="text" class="input-n input-small-t" placeholder="1234 5678 9012 3456"/>
-                    <input type="text" class="input-n input-small-t" placeholder=""/>
+                <div style="width: 32%;float: left;margin-left: 5px;">
+                    <label class="label-t light-black-font">
+                        <span class="blue">*</span>
+                        CVV
+                    </label>
+                    <br>
+                    <input type="text" class="input-n" style="width: 100%" placeholder="123" />
                 </div>
 
                 <div class="clearfix">
@@ -142,14 +169,45 @@
                     </label>
                 </div>
                 <div>
-                    <input type="text" class="input-n input-mini-t" placeholder=""/>
-                    <input type="text" class="input-n input-mini-t" placeholder=""/>
-                    <input type="text" class="input-n input-mini-t" placeholder=""/>
+                    <select name="months" class="input-n input-mini-t" style="background-color: white">
+                        <option value="">month</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                    </select>
+
+                    <select name="year" class="input-n input-mini-t" style="background-color: white">
+                        <option value="">year</option>
+                        <option value="">2001</option>
+                        <option value="">2002</option>
+                        <option value="">2003</option>
+                        <option value="">2004</option>
+                        <option value="">2005</option>
+                        <option value="">2006</option>
+                        <option value="">2007</option>
+                        <option value="">2008</option>
+                        <option value="">2009</option>
+                        <option value="">2010</option>
+                        <option value="">2011</option>
+                        <option value="">2012</option>
+                    </select>
+                    <input type="text" class="input-n input-mini-t" placeholder="453111"/>
                 </div>
 
                 <div class="clearfix">
                 </div>
-                <button type="button">Create Account</button>
+                
+                <div class="height-20 clearfix"></div>
+                <button type="button" class="input-n" style="width: 100%;background-color: #c1ecf4;border:none">Create Account</button>
 
             </form>
         </div>
