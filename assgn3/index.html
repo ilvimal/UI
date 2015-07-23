@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script>
+            window.onload = function ()
+            {
+                var x = document.getElementById("demo").value;
+                alert(x);
+
+            }
+            function country(thisobject)
+            {
+                var x = thisobject.value;
+                alert(x);
+               
+            }
+            
+        </script>
+
+    </head>
+    <body>
+        <p id="my">Select a Country from the list.</p>
+        <select id = "demo" onchange = "myFunction(this)">
+            <option value = "+91"> INDIA </option>
+            <option value = "+23"> UAE </option>
+            <option value = "+92"> PAKISTAN </option>
+            <option value = "+11"> USA </option>
+            <option value = "+55"> UK </option>
+            <option value = "+57"> NEPAL </option>
+            <option value = "+32"> FRANCE </option>
+            <option value = "+82"> JAPAN </option>
+            <option value = "+39"> CHINA </option>
+            <option value = "+65"> KENYA </option>
+
+        </select>
+        <script>
+                        
+            
+function myFunction(selTag) {
+    var x = selTag.options[selTag.selectedIndex].text;
+    alert(x);
+}
+        </script>
+    </body>
+</html>
